@@ -14,7 +14,11 @@ class DatabaseSeeder extends Seeder
     {
         $this->call([
             AdminSeeder::class,
-            // Otros seeders si los tienes
+            CursosSeeder::class,
+            EstudiantesSeeder::class,
+            NotasSeeder::class,
+            MaestrosSeeder::class
+            
         ]);
     }
 }

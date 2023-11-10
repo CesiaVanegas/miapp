@@ -36,7 +36,7 @@
                     <ul class="navbar-nav me-auto">
                         @auth
                             <li class="nav-item">
-                                <a class="nav-link text-black fw-bold" href="{{ route('ejemplo.index') }}">Postres</a>
+                                <a class="nav-link text-black fw-bold" href="{{ route('ejemplo.index') }}">Ejemplo modulos</a>
                             </li>
                         @endauth
                     </ul>
